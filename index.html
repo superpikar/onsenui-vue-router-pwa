@@ -20,11 +20,22 @@
   <!-- Add to home screen for Windows -->
   <meta name="msapplication-TileImage" content="/static/img/icons/msapplication-icon-144x144.png">
   <meta name="msapplication-TileColor" content="#000000">
-
+  <link rel="stylesheet" href="static/css/spinner.css">
 </head>
 
 <body>
-  <div id="app">This is your fallback content in case JavaScript fails to load.</div>
+  <div id="app">
+    <div class="spinner-container">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+      <p>
+        loading ..
+      </p>
+    </div>
+  </div>
   <script type="text/javascript">
   </script>
   <!-- built files will be auto injected -->
