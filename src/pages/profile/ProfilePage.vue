@@ -9,7 +9,7 @@
 import Navbar from '../../components/navbar/Navbar';
 
 export default {
-  name: 'profile',
+  name: 'profile-page',
   components: {
     Navbar,
   },

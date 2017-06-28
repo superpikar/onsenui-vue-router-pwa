@@ -7,19 +7,12 @@ import Vue from 'vue';
 import VueOnsen from 'vue-onsenui';
 import VueRouter from 'vue-router';
 import App from './App';
-
-import HomePage from './pages/home/HomePage';
-import ProfilePage from './pages/profile/ProfilePage';
+import routes from './routes';
 
 Vue.config.productionTip = false;
 
 Vue.use(VueOnsen);
 Vue.use(VueRouter);
-
-const routes = [
-  { name: 'home', path: '/', component: HomePage },
-  { name: 'profile', path: '/profile', component: ProfilePage },
-];
 
 const router = new VueRouter({
   mode: 'hash',

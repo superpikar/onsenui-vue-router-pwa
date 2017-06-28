@@ -55,25 +55,25 @@
      id="layer1">
     <image
        sodipodi:absref="C:\nodejs\vue-pwa-onsenui\src\assets\logo.png"
-       xlink:href="logo.png"
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       width="52.916668"
-       height="52.916668"
-       preserveAspectRatio="none"
-       id="image4493"
+       y="50.748508"
        x="40.821426"
-       y="50.748508" />
+       id="image4493"
+       xlink:href="file:///C:/nodejs/vue-pwa-onsenui/src/assets/logo.png"
+       preserveAspectRatio="none"
+       height="52.916668"
+       width="52.916668"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
        sodipodi:absref="C:\nodejs\vue-pwa-onsenui\src\assets\onsenui-logo.png"
-       xlink:href="onsenui-logo.png"
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       width="46.583145"
-       height="45.418564"
-       preserveAspectRatio="none"
-       id="image4504"
+       y="54.528271"
        x="103.79227"
-       y="54.528271" />
+       id="image4504"
+       xlink:href="file:///C:/nodejs/vue-pwa-onsenui/src/assets/onsenui-logo.png"
+       preserveAspectRatio="none"
+       height="45.418564"
+       width="46.583145"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>

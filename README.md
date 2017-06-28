@@ -72,6 +72,9 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
             <img src="screenshots/android-profile.png" width="250px"/> 
         </kbd>
         <kbd>
+            <img src="screenshots/android-posts.png" width="250px"/> 
+        </kbd>
+        <kbd>
             <img src="screenshots/android-sidemenu.png" width="250px"/> 
         </kbd>
     </div>
@@ -82,6 +85,9 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
         </kbd>
         <kbd>
             <img src="screenshots/iphone-profile.png" width="250px"/> 
+        </kbd>
+        <kbd>
+            <img src="screenshots/iphone-posts.png" width="250px"/> 
         </kbd>
         <kbd>
             <img src="screenshots/iphone-sidemenu.png" width="250px"/> 

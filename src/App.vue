@@ -29,6 +29,11 @@ export default {
           routeName: 'profile',
           icon: 'fa-user',
         },
+        {
+          label: 'Blog',
+          routeName: 'posts',
+          icon: 'fa-file',
+        },
       ],
     };
   },
@@ -39,7 +44,6 @@ export default {
     goTo(routeName) {
       this.$router.push({ name: routeName });
       store.commit('toggleMenu');
-      // this.menuIsOpen = false;
     },
   },
 };

@@ -8,8 +8,12 @@ export default new Vuex.Store({
     menuIsOpen: false,
   },
   mutations: {
-    toggleMenu(state) {
-      state.menuIsOpen = !state.menuIsOpen;
+    toggleMenu(state, isToggle) {
+      if (typeof isToggle !== 'undefined') {
+        state.menuIsOpen = isToggle;
+      } else {
+        state.menuIsOpen = !state.menuIsOpen;
+      }
     },
   },
   actions: {},
