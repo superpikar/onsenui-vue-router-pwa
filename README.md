@@ -66,31 +66,31 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     <div style="width:50%;float:left;">
         <p>Android</p>
         <kbd>
-            <img src="screenshots/android.png" width="250px"/> 
+            <img src="screenshots/android.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/android-profile.png" width="250px"/> 
+            <img src="screenshots/android-profile.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/android-posts.png" width="250px"/> 
+            <img src="screenshots/android-blog.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/android-sidemenu.png" width="250px"/> 
+            <img src="screenshots/android-sidemenu.png" width="200px"/> 
         </kbd>
     </div>
     <div style="width:50%;float:left;">
         <p>iPhone</p>
         <kbd>
-            <img src="screenshots/iphone.png" width="250px"/> 
+            <img src="screenshots/iphone.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/iphone-profile.png" width="250px"/> 
+            <img src="screenshots/iphone-profile.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/iphone-posts.png" width="250px"/> 
+            <img src="screenshots/iphone-blog.png" width="200px"/> 
         </kbd>
         <kbd>
-            <img src="screenshots/iphone-sidemenu.png" width="250px"/> 
+            <img src="screenshots/iphone-sidemenu.png" width="200px"/> 
         </kbd>
     </div>
 </div>
