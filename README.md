@@ -14,12 +14,22 @@ Please read carefully before use this project starter template
 
 -------------------------------
 
+## List of features implemented in this project
+1. Side menu navigation 
+2. Application state management using `Vuex`
+3. Page and component creation 
+4. RESTAPI consumption using `axios`
+5. Custom routing on onsenui-vue using vue-router
+
+-------------------------------
+
 ## Dependencies 
-- onsenui
-- vue
-- vue-onsenui
-- vue-router
-- vuex
+- [onsenui](https://github.com/OnsenUI/OnsenUI)
+- [vue](https://github.com/vuejs/vue)
+- [vue-onsenui](https://github.com/OnsenUI/OnsenUI/tree/master/bindings/vue)
+- [vue-router](https://github.com/vuejs/vue-router)
+- [vuex](https://github.com/vuejs/vuex)
+- [axios](https://github.com/mzabriskie/axios)
 
 -------------------------------
 
