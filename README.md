@@ -62,30 +62,39 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 -------------------------------
 ## Screenshots :
 
-### Android
+<style>
+.col{
+    width:50%;
+    float:left;
+}
+.col img{
+    width: 250px;
+}
+</style>
 
-Home Page
-<br/>
-<kbd>
-  <img src="screenshots/android.png" width="250px" /> 
-</kbd>
-<br/>
-Profile Page
-<br/>
-<kbd>
-  <img src="screenshots/android-profile.png" width="250px" /> 
-</kbd>
-
-### iPhone
-Home Page
-<br/>
-<kbd>
-  <img src="screenshots/iphone.png" width="250px" /> 
-</kbd>
-<br/>
-Profile Page
-<br/>
-<kbd>
-  <img src="screenshots/iphone-profile.png" width="250px" /> 
-</kbd>
-
+<div>
+    <div class="col">
+        <p>Android</p>
+        <kbd>
+            <img src="screenshots/android.png"/> 
+        </kbd>
+        <kbd>
+            <img src="screenshots/android-profile.png"/> 
+        </kbd>
+        <kbd>
+            <img src="screenshots/android-sidemenu.png"/> 
+        </kbd>
+    </div>
+    <div class="col">
+        <p>iPhone</p>
+        <kbd>
+            <img src="screenshots/iphone.png"/> 
+        </kbd>
+        <kbd>
+            <img src="screenshots/iphone-profile.png" /> 
+        </kbd>
+        <kbd>
+            <img src="screenshots/iphone-sidemenu.png" /> 
+        </kbd>
+    </div>
+</div>
