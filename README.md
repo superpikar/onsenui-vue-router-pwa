@@ -75,7 +75,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
             <img src="screenshots/android-sidemenu.png" width="250px"/> 
         </kbd>
     </div>
-    <div  style="width:50%;float:left;">
+    <div style="width:50%;float:left;">
         <p>iPhone</p>
         <kbd>
             <img src="screenshots/iphone.png" width="250px"/> 

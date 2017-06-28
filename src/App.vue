@@ -6,7 +6,6 @@
 
 <script>
 import HomePage from './pages/home/HomePage';
-import MenuPage from './components/MenuPage';
 import store from './store';
 
 export default {
@@ -35,7 +34,6 @@ export default {
   },
   components: {
     HomePage,
-    MenuPage,
   },
   methods: {
     goTo(routeName) {

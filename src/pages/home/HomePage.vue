@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import MenuPage from '../../components/MenuPage';
+import Navbar from '../../components/navbar/Navbar';
 
 export default {
   name: 'home',
   components: {
-    MenuPage,
+    Navbar,
   },
   data() {
     return {
