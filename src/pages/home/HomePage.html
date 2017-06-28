@@ -1,0 +1,40 @@
+<v-ons-page>
+
+  <menu-page></menu-page>
+
+  <div class="header">
+    <img src="../../assets/logo-vue-onsenui.png">
+    <p>Vue + Onsen UI is a great partner!</p>
+  </div>
+
+  <v-ons-list-title>Vue.js Essential Links</v-ons-list-title>
+  <v-ons-list>
+    <v-ons-list-item v-for="item in essentialLinks" @click="goTo(item.link)" :key="item.link">
+      <div class="left">
+        <v-ons-icon fixed-width :icon="item.icon"></v-ons-icon>
+      </div>
+      <div class="center">{{ item.label }}</div>
+      <div class="right">
+        <v-ons-icon icon="fa-external-link"></v-ons-icon>
+      </div>
+    </v-ons-list-item>
+  </v-ons-list>
+
+  <v-ons-list-title>Vue.js Ecosystem</v-ons-list-title>
+  <v-ons-row>
+    <v-ons-col>
+      <v-ons-card @click="goTo('http://router.vuejs.org/')">vue-router</v-ons-card>
+    </v-ons-col>
+    <v-ons-col>
+      <v-ons-card @click="goTo('http://vuex.vuejs.org/')">vuex</v-ons-card>
+    </v-ons-col>
+  </v-ons-row>
+  <v-ons-row>
+    <v-ons-col>
+      <v-ons-card @click="goTo('http://vue-loader.vuejs.org/')">vue-loader</v-ons-card>
+    </v-ons-col>
+    <v-ons-col>
+      <v-ons-card @click="goTo('https://github.com/vuejs/awesome-vue')">awesome-vue</v-ons-card>
+    </v-ons-col>
+  </v-ons-row>
+</v-ons-page>

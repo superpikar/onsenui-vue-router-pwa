@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+  background: #010e0d;
+  padding-top: 10px;
+}
+
+.header p {
+  background: #a3f8ab;
+  padding: 10px;
+}
+
+img {
+  max-width: 300px;
+}
+
+ons-list-title:not(:first-of-type) {
+  margin-top: 30px;
+}
+
+ons-card {
+  text-align: center;
+}
+
+ons-list-item,
+ons-card {
+  cursor: pointer;
+}
