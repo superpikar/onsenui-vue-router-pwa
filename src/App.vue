@@ -43,7 +43,11 @@ export default {
   methods: {
     goTo(routeName) {
       this.$router.push({ name: routeName });
-      store.commit('toggleMenu');
+      store.commit('toggleMenu', false);
+    },
+    onUserInteraction(event) {
+      // console.log(event);   // on click ons-splitter-side-mask, event always false(?)
+      store.commit('toggleMenu', event);
     },
   },
 };

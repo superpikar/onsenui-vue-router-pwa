@@ -15,8 +15,7 @@ export default {
   },
   methods: {
     toggleMenu() {
-      console.log('toggleMenu');
-      this.$store.commit('toggleMenu');
+      this.$store.commit('toggleMenu', true);
     },
   },
 };

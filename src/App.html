@@ -1,6 +1,6 @@
 <v-ons-page id="app">
   <v-ons-splitter>
-    <v-ons-splitter-side swipeable collapse width="250px" :animation="$ons.platform.isAndroid() ? 'overlay' : 'reveal'" :open.sync="menuIsOpen">
+    <v-ons-splitter-side swipeable collapse width="250px" :animation="$ons.platform.isAndroid() ? 'overlay' : 'reveal'" :open.sync="menuIsOpen" @update:open="onUserInteraction">
       <v-ons-page>
         <v-ons-toolbar modifier="transparent"></v-ons-toolbar>
         <div class="header">
