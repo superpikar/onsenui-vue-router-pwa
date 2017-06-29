@@ -4,9 +4,7 @@
     <h3 class="page-title">
       Display {{posts.length}} of {{found}} post. <br/> From {{config.BLOGURL}}
     </h3>
-    <div v-if="isLoading">
-      <loading-indicator></loading-indicator>
-    </div>
+    <loading-indicator :is-loading="isLoading"></loading-indicator>
     <v-ons-card v-for="post in posts" :key="post.ID">
       <div class="title">{{post.title}}</div>
       <div class="content">{{post.excerpt}}</div>
