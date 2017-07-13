@@ -1,7 +1,7 @@
-# Onsen UI + Vue + Vue Router PWA Starter Project Template
+# Onsen UI + Vue + Vue Router + Axios PWA Starter Project
 
 ## Information 
-Please read carefully before use this project starter template
+Please read carefully before use this project starter
 
 1. This project is based on [onsenui-vue-pwa webpack template](https://github.com/OnsenUI/vue-pwa-webpack)
 2. Since I dont need PWA at the moment, so I remove all the script related to PWA in `index.html`. If you want to use PWA, just rename `index-serviceworker.html` to `index.html`
